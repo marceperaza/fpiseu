@@ -1,0 +1,16 @@
+# Ignore KDevelop
+*.kdev4
+# Ignorar config.php
+# Contiene la informacion de la Base de Datos
+config.php
+# Ignorar mpdf60
+mpdf60
+# Ignorar todos los zip
+*.zip
+# Ignorar los archivos de Bootstrap.
+bootstrap.min.css
+bootstrap-theme.min.css
+bootstrap.min.js
+fonts/
+# Ignorar el directorio temporal
+tmp/

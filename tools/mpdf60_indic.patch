@@ -1,0 +1,11 @@
+--- mpdf60/classes/indic.php.orig	2015-08-28 15:05:15.177765984 -0600
++++ mpdf60/classes/indic.php	2015-08-28 13:26:20.505163100 -0600
+@@ -1139,7 +1139,7 @@
+ 
+ }
+ 
+-function _move_info_pos(&$info, $from, $to) {
++private static function _move_info_pos(&$info, $from, $to) {
+ 	$t = array();
+ 	$t[0] = $info[$from];
+ 	if ($from > $to) {
